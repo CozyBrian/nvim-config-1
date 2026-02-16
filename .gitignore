@@ -8,3 +8,4 @@ foo.*
 data
 *-theme.lua
 *-local.lua
+lazy-lock.json
