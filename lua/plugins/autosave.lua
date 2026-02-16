@@ -5,6 +5,9 @@ return {
       trigger_events = { "InsertLeave" },
       debounce_delay = 200,
       condition = function(buf)
+        if not vim.api.nvim_buf_is_valid(buf) then
+          return false
+        end
         local buftype = vim.bo[buf].buftype
         if buftype ~= "" then
           return false
