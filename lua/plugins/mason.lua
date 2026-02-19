@@ -3,6 +3,9 @@ return {
   opts = {
     ensure_installed = {
       "jdtls",
+      "typescript-language-server",
+      "eslint-lsp",
+      "prettier",
     },
   },
 }

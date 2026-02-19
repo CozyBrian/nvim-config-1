@@ -1,6 +1,9 @@
 return {
   "neovim/nvim-lspconfig",
   opts = {
-    servers = {},
+    servers = {
+      tsserver = {},
+      eslint = {},
+    },
   },
 }
