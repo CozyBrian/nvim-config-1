@@ -4,6 +4,7 @@ return {
     servers = {
       tsserver = {},
       eslint = {},
+      tailwindcss = {},
     },
   },
 }
