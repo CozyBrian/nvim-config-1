@@ -2,7 +2,7 @@ return {
   "neovim/nvim-lspconfig",
   opts = {
     servers = {
-      tsserver = {},
+      tsserver = false,
       eslint = {},
       tailwindcss = {},
     },
